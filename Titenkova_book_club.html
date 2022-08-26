@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Page Title</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+   min-width: 650px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+.header {
+  padding: 80px;
+  text-align: center;
+  background:url(https://img-cdn.inc.com/image/upload/w_1920,h_1080,c_fill/images/panoramic/GettyImages-577674005_492115_zfpgiw.jpg);
+  color: white;
+}
+
+.header h1 {
+  font-size: 40px;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.navbar a.active {
+  background-color: #666;
+  color: white;
+}
+
+.row {  
+  display: -ms-flexbox; 
+  display: flex;
+  -ms-flex-wrap: wrap; 
+  flex-wrap: wrap;
+}
+
+.side {
+  -ms-flex: 50%; 
+  flex: 50%;
+  background-color: white;
+  padding: 20px;
+}
+
+.sideside {
+  -ms-flex: 50%; 
+  flex: 50%;
+  background-color: #FFBF00;
+  padding: 20px;
+}
+
+.main {   
+  -ms-flex: 50%; 
+  flex: 50%;
+  background-color: #FFBF00;
+  padding: 20px;
+}
+
+.mainmain {   
+  -ms-flex: 50%; 
+  flex: 50%;
+  background-color: white;
+  padding: 20px;
+}
+
+.about {
+    text-align: center; 
+    background-color: white;
+    padding: 20px;
+   }
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #333;
+   color: white;
+}
+
+.fig {
+    text-align: center; 
+   }
+   
+ .present {
+    padding: 20px;
+    text-align: center; 
+    background: #E03C31;
+    color: white;
+   }
+   
+.zz {
+position:relative;
+float:right; 
+}
+
+@media screen and (max-width: 500px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+.pastpres {
+  padding: 270px;
+  text-align: center;
+  background:url(https://avatars.mds.yandex.net/get-kinopoisk-post-img/1539913/f594e91dd6672c7be27586c2274f6a08/960x540) no-repeat;
+    background-size: 100%; 
+  color: white;
+}
+
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Книжный клуб</h1>
+  <p>Свобода существует затем, чтобы ходить в <b>библиотеку</b>.</p>
+  <p>И. Бродский</p>
+</div>
+
+<div class="navbar">
+  <a href="#main"class="active">Главная</a>
+  <a href="#about">О нас</a>
+  <a href="#present">Что читаем</a>
+   <a href="#past">Что читали</a>
+</div>  
+
+<div id="main">
+<div class="row">
+  <div class="side">
+    <h2>Что такое книжный клуб?</h2>
+    <h5>Картинка из интернета:</h5>
+    <div class="fig">
+      <img src="https://eksmo.ru/upload/iblock/6a0/club_L_min.jpg" alt="" width="240" height="160">
+    </div>
+    <p>Как и следует из названия, книжный клуб является объединением любителей чтения книг! Наш клуб появился относительно недавно, ему нет еще и года, но мы надеемся, что он останется в нашем университете на долгие годы!!!</p>
+  </div>
+  <div class="main">
+    <h2>Зачем он нужен?</h2>
+    <p>Как и следует из названия для обсуждения книг, конечно же!!! Ведь, прочитав что-то, порой так хочется поделиться своими мыслями и идеями, услушать чужое мнение. Так думали мы с моей подружкой и решили найти единомышленников. Результатом стал... КНИЖНЫЙ КЛУБ!!!!!</p>
+    <br>
+    <div class="zz">
+      <img src="https://images01.nicepage.com/a1389d7bc73adea1e1c1fb7e/cef0933c96f85492b868e2a9/Untitled-4.png" alt="" width="281" height="253">
+    </div>
+  </div>
+</div>
+</div>
+
+<div id="about">
+<div class="about">
+      <h2>О нас</h2>
+      <p>Встречи проходят примерно раз в месяц. Собираемся мы чаще в библиотеке. Встречи проходят в формате обсуждения самого автора, затем мы плавно перетекаем к обсуждению его книги, здесь мы обсуждаем сам сюжет, наше отношение к героям и прочее в таком духе.</p>
+      <img src="https://sun9-56.userapi.com/impg/BHTU6b9l02My_uQ8QHeTn0tLzK7cn8Kwj-6SbA/C6RQtm14MBs.jpg?size=1280x720&quality=95&sign=009933c00521bc5f44121dfd22bdabc8&type=album"alt="" width="640" height="360">
+      <h5>Фоточка с одной из встреч клуба</h5>
+    </div>
+    </div>
+    <div id="present">
+    <div class="present">
+    <h2>На повестке дня</h2>
+    </div>
+    <div class="pastpres">
+    <h2>Мартин Иден</h2>
+    <br>
+    <h3>Джек Лондон</h3>
+    </div>
+    </div>
+
+   <div id="past">
+<div class="about">
+      <h2>А это из уже прочитанного</h2>
+	  <img src="https://sun9-61.userapi.com/impg/2kgfQYrg26PiCAp6LdfTWg4TCpIOOKRi1Yb3og/sIB0F7Wck00.jpg?size=640x480&quality=95&sign=6b387665f171f4ab0a7d1fa2158b5145&type=album"alt="" width="640" height="480">
+      <img src="https://s1.livelib.ru/boocover/1000195226/200/3da1/boocover.jpg"alt="" width="200" height="328">
+      <img src="https://cv7.litres.ru/pub/c/elektronnaya-kniga/cover_max1500/127578-arkadiy-i-boris-strugackie-trudno-byt-bogom-127578.jpg"alt="" width="195" height="300">
+      <img src="https://s1.livelib.ru/boocover/1000463510/200/c001/boocover.jpg"alt="" width="195" height="300">
+    </div>
+    </div>
+    
+<div class="footer">
+  <h4>Всех ждем в нашей <body link="#8A2BE2" vlink="#4F86F7" alink="red">
+  <a href="https://web.telegram.org/k/#-514081401">беседе в телеграмме!</a>
+ </body></h4>
+</div>
+</body>
+</html>
